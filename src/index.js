@@ -15,4 +15,4 @@ tabsAppender('.tabs-container')
 cardAppender('.cards-container')
 
 
-const myName = "Marina"
+//const myName = "Marina"

@@ -22,18 +22,18 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 #### Repository Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
 
 #### Launching the App
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to the URL indicated in the output of the `npm start` command.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to the URL indicated in the output of the `npm start` command.
 
 ### B - Project Requirements
 
@@ -75,7 +75,12 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+   The DOM, or document object model, is a representation in the browser of the html and css files used to create a webpage. It is an interface that is language nuetral. JavaScript can be used to access and manipulate the html and css files through the DOM. Elements can be created or deleted through the DOM.
 2. What is an event?
+   Every user interaction within a site is defined as an event and makes a website more interactive. An events are actions or occrences that happen in the system you are programing. When an event occurs a signal is fired and the user can repond to it in some way if the user desires.
 3. What is an event listener?
+   An event listener is a method used to attach an event to an element. It takes 2 arguments, first the event to listen for and then the callback to fire when the event is triggered.
 4. Why would we convert a NodeList into an Array?
+   The purpose of converting a NodeList into an Array like object is so that we can access and manipulate DOM elements.
 5. What is a component?
+   Components are reusable bits of code. Components keeps your code dry and allows you to use over and over again.
