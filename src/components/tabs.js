@@ -13,6 +13,27 @@ const Tabs = (topics) => {
   //   <div class="tab">technology</div>
   // </div>
   //
+
+  //Creating elements 
+  const topicsDiv = document.createElement('div');
+  topicsDiv.classList.add('topics');
+  const tab1 = document.createElement('div');
+  tab1.document.classList.add('tab');
+  const tab2 = document.createElement('tab');
+  tab2.classList.add('tab');
+  const tab3 = document.createElement('div');
+  tab3.classList.add('tab');
+
+  //Appending elements & adding text
+  tabs-container.appendChild(topicsDiv);
+  topicsDiv.appendChild(tab1)
+  tab1.textContent = 'javascript';
+  topicsDiv.appendChild(tab2);
+  tab2.textContent = 'bootstrap';
+  topicsDiv.appendChild(tab3);
+  tabs3.textContent = 'technology';
+
+  return topicsDiv
 }
 
 const tabsAppender = (selector) => {
